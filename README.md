@@ -4,9 +4,6 @@
   
 **In this project we have made Q/A ChatBot using RNN(Recurrent Neural Network) with LSTM(Long Short Term Memory) in Natural Language Processing.** <br></br>
 
-
-
-
 Here we will using End to End Memory Networks. The inputs will consist of:<br></br>
 1: Story(It will be just the sequences of sentences which will be feeded into the embedding layer 'A' to form memrory vector(m)<br>
 2: Questions(It will be questions asked w.r.t sentences which will be feeded into the embedding layer 'B' to form input vector(u)<br>
@@ -16,16 +13,14 @@ Soon After we will put our Story into another embedding layer C and then we will
 After this we will perform o(summation with u) which will give us weight. After which we will apply softmax on this to get the predicted answer.<br></br>
 
 
-
 **Before jumping to the code lets understand LSTM(Long Short Term Memory), RNN(Recurrent Neural Network), and NLP(Natural Language Processing) First**...<br></br>
 
-
-**What is LSTM?** <br></br>
+**What is LSTM(Long Short Term Memory)?** <br></br>
 
 LSTM(Long Short Term Memory) is a type of recurrent neural network (RNN) aimed at dealing with the vanishing gradient problem present in traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models and other sequence learning methods. <br></br>
 
-**What is RNN?** <br></br> 
-A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output
+**What is (RNN)Recurrent Neural Network?** <br></br> 
+A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.
 
 **What is (NLP)Natural Language Processing**?<br></br>
 
@@ -36,7 +31,7 @@ NLP combines computational linguistics—rule-based modeling of human language�
 NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly—even in real time. There’s a good chance you’ve interacted with NLP in the form of voice-operated GPS systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. But NLP also plays a growing role in enterprise solutions that help streamline business operations, increase employee productivity, and simplify mission-critical business processes.<br></br>
 
 
-**Important Note: Go through the quora_questions.csv file and get a proper understanding of it before jumping to the code.**
+**Important Note: Go through the research paper attached above and get the understanding of both as well go through both the training file and test file and get to know the dataset before jumping to the code.**
 
 
 </table>
