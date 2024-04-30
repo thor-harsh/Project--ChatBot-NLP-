@@ -22,7 +22,7 @@ Then we will perform inner product of m and u. Then we will apply softmax functi
 LSTM(Long Short Term Memory) is a type of recurrent neural network (RNN) aimed at dealing with the vanishing gradient problem present in traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models and other sequence learning methods. <br></br>
 
 **What is (RNN)Recurrent Neural Network?** <br></br> 
-A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.
+A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.<br></br>
 
 **What is (NLP)Natural Language Processing**?<br></br>
 
