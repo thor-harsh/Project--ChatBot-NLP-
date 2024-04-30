@@ -17,7 +17,7 @@ Then we will perform inner product of m and u. Then we will apply softmax functi
 
 **Before jumping to the code lets understand LSTM(Long Short Term Memory), RNN(Recurrent Neural Network), and NLP(Natural Language Processing) First**...<br></br>
 
-**What is LSTM(Long Short Term Memory)?** <br></br>
+**What is (LSTM)Long Short Term Memory?** <br></br>
 
 LSTM(Long Short Term Memory) is a type of recurrent neural network (RNN) aimed at dealing with the vanishing gradient problem present in traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models and other sequence learning methods. <br></br>
 
