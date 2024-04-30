@@ -6,7 +6,7 @@
 
 **Here we will using End to End Memory Networks. Brief Overview of Working in Single Layers:** <br></br>
 
-**Given Inputs are:** <br>
+**Given Inputs are:** <br></br>
 1: Story(It will be just the sequences of sentences which will be feeded into the embedding layer 'A' to form memrory vector(m)<br></br>
 2: Questions(It will be questions asked w.r.t sentences which will be feeded into the embedding layer 'B' to form input vector(u)<br></br>
 
@@ -15,7 +15,7 @@ Soon After we will put our Story into another embedding layer C and then we will
 After this we will perform o(summation with u) which will give us weight. After which we will apply softmax on this to get the predicted answer.<br></br>
 
 **Output:** <br></br>
-3: Answer(i.e whether answer is yes or no)
+3: Answer(i.e whether answer is yes or no)<br></br>
 
 **Before jumping to the code lets understand LSTM(Long Short Term Memory), RNN(Recurrent Neural Network), and NLP(Natural Language Processing) First**...<br></br>
 
