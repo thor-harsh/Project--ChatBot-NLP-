@@ -4,7 +4,7 @@
   
 **In this project we will building a Q/A ChatBot using RNN(Recurrent Neural Network) with LSTM(Long Short Term Memory) in Natural Language Processing using Python.** <br></br>
 
-**Here we will using End to End Memory Networks. Brief Overview of Working in Single Layers:** <br></br>
+**First of all Thanks Jose for this amazing assement. Lets look at the Overview of Working in Single Layers:** <br></br>
 
 **Given Inputs are:** <br></br>
 1: Story(It will be just the sequences of sentences which will be feeded into the embedding layer 'A' to form memrory vector(m)<br></br>
