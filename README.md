@@ -10,7 +10,6 @@
 Here we will using End to End Memory Networks. The inputs will consist of:<br></br>
 1: Story(It will be just the sequences of sentences which will be feeded into the embedding layer 'A' to form memrory vector(m)<br>
 2: Questions(It will be questions asked w.r.t sentences which will be feeded into the embedding layer 'B' to form input vector(u)<br>
-
 Then we will perform inner product of m and u. Then we will apply softmax function on that.<br>
 Soon After we will put our Story into another embedding layer C and then we will calculate its weighted sum and assigned it as output(o).<br>
 
@@ -21,9 +20,12 @@ After this we will perform o(summation with u) which will give us weight. After 
 **Before jumping to the code lets understand LSTM(Long Short Term Memory), RNN(Recurrent Neural Network), and NLP(Natural Language Processing) First**...<br></br>
 
 
-**What is NMF?** <br></br>
+**What is LSTM?** <br></br>
 
-Non-negative Matrix Factorization (NMF) is a dimensionality reduction technique commonly used in Natural Language Processing (NLP) for topics extraction and document clustering. In NMF, a matrix representing the relationships between terms (words) and documents is factorized into two lower-dimensional matrices, typically referred to as the term-topic matrix and the topic-document matrix. <br></br>
+LSTM(Long Short Term Memory) is a type of recurrent neural network (RNN) aimed at dealing with the vanishing gradient problem present in traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models and other sequence learning methods. <br></br>
+
+**What is RNN?** <br></br> 
+A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output
 
 **What is (NLP)Natural Language Processing**?<br></br>
 
