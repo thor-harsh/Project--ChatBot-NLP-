@@ -2,15 +2,15 @@
 
 <table>
   
-**In this project we will building a Q/A ChatBot using RNN(Recurrent Neural Network) with LSTM(Long Short Term Memory) in Natural Language Processing using Python.** <br></br>
+**In this project we will building a Q/A ChatBot using RNN(Recurrent Neural Network) with LSTM(Long Short Term Memory) in Natural Language Processing using Python.** <br</br>
 
 **First of all Thanks Jose for this amazing assement. Lets look at the Overview of Working in Single Layers:** <br></br>
 
 **Given Inputs are:** <br></br>
-1: Story(It will be just the sequences of sentences which will be feeded into the embedding layer 'A' to form memrory vector(m)<br></br>
-2: Questions(It will be questions asked w.r.t sentences which will be feeded into the embedding layer 'B' to form input vector(u)<br></br>
+1: Story(It will be just the sequences of sentences which will be feeded into the embedding layer 'A' to form memrory vector(m) <br></br>
+2: Questions(It will be questions asked w.r.t sentences which will be feeded into the embedding layer 'B' to form input vector(u) <br></br>
 
-Then we will perform inner product of m and u. Then we will apply softmax function on that. Soon After we will put our Story into another embedding layer C and then we will calculate its weighted sum and assigned it as output(o).After this we will perform o(summation with u) which will give us weight. After which we will apply softmax on this to get the predicted answer.<br></br>
+Then we will perform inner product of m and u. Then we will apply softmax function on that. Soon After we will put our Story into another embedding layer 'C' and then we will calculate its weighted sum and assigned it as output(o).After this we will perform o(summation with u) which will give us weight. After which we will apply softmax on this to get the predicted answer. <br></br>
 
 **Output:** <br></br>
 3: Answer(i.e whether answer is 'Yes' Or 'No')<br></br>
