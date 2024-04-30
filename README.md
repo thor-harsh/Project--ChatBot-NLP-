@@ -2,7 +2,7 @@
 
 <table>
   
-**In this project we will building a Q/A ChatBot using RNN(Recurrent Neural Network) with LSTM(Long Short Term Memory) in Natural Language Processing using Python.** <br</br>
+**In this project we will building a Q/A ChatBot using RNN(Recurrent Neural Network) with LSTM(Long Short Term Memory) in Natural Language Processing using Python.** <br></br>
 
 **First of all Thanks Jose for this amazing assement. Lets look at the Overview of Working in Single Layers:** <br></br>
 
