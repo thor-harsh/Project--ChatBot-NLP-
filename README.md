@@ -13,7 +13,7 @@
 Then we will perform inner product of m and u. Then we will apply softmax function on that. Soon After we will put our Story into another embedding layer 'C' and then we will calculate its weighted sum and assigned it as output(o).After this we will perform o(summation with u) which will give us weight. After which we will apply softmax on this to get the predicted answer. <br></br>
 
 **Output:** <br></br>
-3: Answer(i.e whether answer is 'Yes' Or 'No')<br></br>
+3: Answer(i.e whether answer is 'Yes' or 'No') <br></br>
 
 **Before jumping to the code lets understand LSTM(Long Short Term Memory), RNN(Recurrent Neural Network), and NLP(Natural Language Processing) First**...<br></br>
 
@@ -24,7 +24,7 @@ LSTM(Long Short Term Memory) is a type of recurrent neural network (RNN) aimed a
 **What is (RNN)Recurrent Neural Network?** <br></br> 
 A recurrent neural network (RNN) is a deep learning model that is trained to process and convert a sequential data input into a specific sequential data output.<br></br>
 
-**What is (NLP)Natural Language Processing**?<br></br>
+**What is (NLP)Natural Language Processing**? <br></br>
 
 NLP or Natural language processing is an interdisciplinary subfield of computer science and linguistics. It is primarily concerned with giving computers the ability to support and manipulate human language.<br></br>
 
